@@ -1,0 +1,221 @@
+[
+  {
+    "question_id": "Q-001",
+    "question": "大豆叶片出现褐色近圆形病斑，最可能关联哪些病害？",
+    "teaching_module": "TF-IDF_BM25",
+    "query_type": "keyword_retrieval",
+    "expected_entity_ids": [
+      "DIS-01",
+      "DIS-07"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-001",
+      "DOC-DIS-007"
+    ]
+  },
+  {
+    "question_id": "Q-002",
+    "question": "叶片形成边缘较深、轮廓接近圆形的棕褐斑块，可能是什么病？",
+    "teaching_module": "SEMANTIC_VECTOR",
+    "query_type": "semantic_paraphrase",
+    "expected_entity_ids": [
+      "DIS-01",
+      "DIS-07"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-001",
+      "DOC-DIS-007"
+    ]
+  },
+  {
+    "question_id": "Q-003",
+    "question": "大豆褐斑病还常伴随哪些典型症状？",
+    "teaching_module": "GRAPH_RAG",
+    "query_type": "graph_neighborhood",
+    "expected_entity_ids": [
+      "SYM-02",
+      "SYM-03",
+      "SYM-04"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-001"
+    ]
+  },
+  {
+    "question_id": "Q-004",
+    "question": "2025年7月六合区出现褐色近圆形病斑的大豆病例共有多少例？",
+    "teaching_module": "SQL_RAG",
+    "query_type": "filter_count",
+    "expected_value": 24,
+    "evidence_case_ids": [
+      "CASE-2025-0001",
+      "CASE-2025-0002",
+      "CASE-2025-0003",
+      "CASE-2025-0004",
+      "CASE-2025-0005",
+      "CASE-2025-0006",
+      "CASE-2025-0007",
+      "CASE-2025-0008",
+      "CASE-2025-0009",
+      "CASE-2025-0010",
+      "CASE-2025-0011",
+      "CASE-2025-0012",
+      "CASE-2025-0013",
+      "CASE-2025-0014",
+      "CASE-2025-0015",
+      "CASE-2025-0016",
+      "CASE-2025-0017",
+      "CASE-2025-0018",
+      "CASE-2025-0019",
+      "CASE-2025-0020",
+      "CASE-2025-0021",
+      "CASE-2025-0022",
+      "CASE-2025-0023",
+      "CASE-2025-0024"
+    ]
+  },
+  {
+    "question_id": "Q-005",
+    "question": "大豆褐斑病有哪些安全间隔期不超过14天的教学药剂？",
+    "teaching_module": "SPARQL_RAG",
+    "query_type": "ontology_constraint",
+    "expected_entity_ids": [
+      "PST-01",
+      "PST-02"
+    ],
+    "evidence_doc_ids": [
+      "DOC-PST-001",
+      "DOC-PST-002"
+    ]
+  },
+  {
+    "question_id": "Q-006",
+    "question": "2025年7月六合区的大豆病例中，叶片出现褐色近圆形病斑时，最可能是什么病？共有多少例？还常伴随哪些症状？推荐一种安全间隔期不超过14天的药剂，并给出依据。",
+    "teaching_module": "COMPOSITE_ROUTING",
+    "query_type": "compound",
+    "subtasks": [
+      "症状语义检索",
+      "地区时间病例统计",
+      "伴随症状图查询",
+      "药剂属性约束",
+      "证据合并"
+    ],
+    "expected_entity_ids": [
+      "DIS-01",
+      "SYM-02",
+      "SYM-03",
+      "SYM-04",
+      "PST-01"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-001",
+      "DOC-PST-001"
+    ],
+    "evidence_case_ids": [
+      "CASE-2025-0001",
+      "CASE-2025-0002",
+      "CASE-2025-0003",
+      "CASE-2025-0004",
+      "CASE-2025-0005",
+      "CASE-2025-0006",
+      "CASE-2025-0007",
+      "CASE-2025-0008",
+      "CASE-2025-0009",
+      "CASE-2025-0010",
+      "CASE-2025-0011",
+      "CASE-2025-0012",
+      "CASE-2025-0013",
+      "CASE-2025-0014",
+      "CASE-2025-0015",
+      "CASE-2025-0016",
+      "CASE-2025-0017",
+      "CASE-2025-0018",
+      "CASE-2025-0019",
+      "CASE-2025-0020",
+      "CASE-2025-0021",
+      "CASE-2025-0022",
+      "CASE-2025-0023",
+      "CASE-2025-0024"
+    ]
+  },
+  {
+    "question_id": "Q-007",
+    "question": "病斑中央灰白、外围呈紫褐色的大豆叶部病害是什么？",
+    "teaching_module": "SEMANTIC_VECTOR",
+    "query_type": "semantic_diagnosis",
+    "expected_entity_ids": [
+      "DIS-02"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-002"
+    ]
+  },
+  {
+    "question_id": "Q-008",
+    "question": "大豆靶斑病通过哪些症状与大豆褐斑病形成相似与区分关系？",
+    "teaching_module": "GRAPH_RAG",
+    "query_type": "graph_comparison",
+    "expected_entity_ids": [
+      "SYM-01",
+      "SYM-14",
+      "SYM-02"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-001",
+      "DOC-DIS-007"
+    ]
+  },
+  {
+    "question_id": "Q-009",
+    "question": "2025年7月浦口区记录最多的大豆病害是什么，共有多少例？",
+    "teaching_module": "SQL_RAG",
+    "query_type": "group_rank",
+    "expected_entity_ids": [
+      "DIS-02"
+    ],
+    "expected_value": 1,
+    "evidence_case_ids": [
+      "CASE-2025-0052"
+    ]
+  },
+  {
+    "question_id": "Q-010",
+    "question": "大豆锈病有哪些安全间隔期不超过14天的教学药剂？",
+    "teaching_module": "SPARQL_RAG",
+    "query_type": "numeric_property_filter",
+    "expected_entity_ids": [
+      "PST-04",
+      "PST-11"
+    ],
+    "evidence_doc_ids": [
+      "DOC-PST-004",
+      "DOC-PST-011"
+    ]
+  },
+  {
+    "question_id": "Q-011",
+    "question": "从同心轮纹出发，沿知识图谱找到病害、推荐药剂和证据文档。",
+    "teaching_module": "GRAPH_RAG",
+    "query_type": "multi_hop_path",
+    "expected_entity_ids": [
+      "SYM-14",
+      "DIS-07",
+      "PST-09",
+      "DOC-PST-009"
+    ],
+    "evidence_doc_ids": [
+      "DOC-DIS-007",
+      "DOC-PST-009"
+    ]
+  },
+  {
+    "question_id": "Q-012",
+    "question": "为什么本数据集中的药剂信息不能直接用于真实生产？",
+    "teaching_module": "DOCUMENT_RAG",
+    "query_type": "provenance_and_scope",
+    "expected_text": "药剂名称、活性成分、安全间隔期和用法均为教学模拟字段。",
+    "evidence_doc_ids": [
+      "DOC-PST-001"
+    ]
+  }
+]

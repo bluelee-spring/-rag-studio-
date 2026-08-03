@@ -1,0 +1,3522 @@
+@prefix kg: <https://example.org/soybean-rag/> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+kg:CROP-01 a kg:Crop ; kg:name "大豆"@zh ; kg:aliases "黄豆"@zh .
+
+kg:REG-01 a kg:Region ; kg:name "六合区"@zh .
+
+kg:REG-02 a kg:Region ; kg:name "浦口区"@zh .
+
+kg:REG-03 a kg:Region ; kg:name "高淳区"@zh .
+
+kg:REG-04 a kg:Region ; kg:name "江宁区"@zh .
+
+kg:REG-05 a kg:Region ; kg:name "溧水区"@zh .
+
+kg:SYM-01 a kg:Symptom ; kg:name "褐色近圆形病斑"@zh ; kg:aliases "棕褐色圆斑|褐色圆形斑|近圆形褐斑|棕褐色近圆斑"@zh .
+
+kg:SYM-02 a kg:Symptom ; kg:name "病斑边缘深褐"@zh ; kg:aliases "病斑边缘颜色较深|深褐色边界"@zh .
+
+kg:SYM-03 a kg:Symptom ; kg:name "叶片黄化"@zh ; kg:aliases "叶片发黄|叶色变黄"@zh .
+
+kg:SYM-04 a kg:Symptom ; kg:name "提前落叶"@zh ; kg:aliases "早期落叶|叶片提前脱落"@zh .
+
+kg:SYM-05 a kg:Symptom ; kg:name "灰白中心紫褐边缘"@zh ; kg:aliases "灰白斑心|紫褐色斑缘"@zh .
+
+kg:SYM-06 a kg:Symptom ; kg:name "角斑水渍状"@zh ; kg:aliases "水渍状角斑|受叶脉限制的角形斑"@zh .
+
+kg:SYM-07 a kg:Symptom ; kg:name "黄色晕圈"@zh ; kg:aliases "黄绿色晕圈|病斑外缘黄晕"@zh .
+
+kg:SYM-08 a kg:Symptom ; kg:name "叶面淡黄斑"@zh ; kg:aliases "叶片淡黄色斑块|叶面黄斑"@zh .
+
+kg:SYM-09 a kg:Symptom ; kg:name "叶背灰白霉层"@zh ; kg:aliases "叶背霉层|灰白色霉状物"@zh .
+
+kg:SYM-10 a kg:Symptom ; kg:name "叶背褐色小疱"@zh ; kg:aliases "褐色孢子堆|叶背小疱斑"@zh .
+
+kg:SYM-11 a kg:Symptom ; kg:name "粉末状孢子"@zh ; kg:aliases "粉末状物|孢子粉"@zh .
+
+kg:SYM-12 a kg:Symptom ; kg:name "黑褐色凹陷斑"@zh ; kg:aliases "凹陷坏死斑|黑褐色下陷病斑"@zh .
+
+kg:SYM-13 a kg:Symptom ; kg:name "茎荚条状病斑"@zh ; kg:aliases "茎部条斑|豆荚条形病斑"@zh .
+
+kg:SYM-14 a kg:Symptom ; kg:name "同心轮纹"@zh ; kg:aliases "靶纹|同心环纹"@zh .
+
+kg:SYM-15 a kg:Symptom ; kg:name "茎基部暗褐变"@zh ; kg:aliases "茎基部褐变|近地面茎部变暗"@zh .
+
+kg:SYM-16 a kg:Symptom ; kg:name "根系腐烂萎蔫"@zh ; kg:aliases "根腐|植株萎蔫"@zh .
+
+kg:DOC-DIS-001 a kg:Document ; kg:name "大豆褐斑病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-002 a kg:Document ; kg:name "大豆灰斑病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-003 a kg:Document ; kg:name "大豆细菌性斑点病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-004 a kg:Document ; kg:name "大豆霜霉病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-005 a kg:Document ; kg:name "大豆锈病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-006 a kg:Document ; kg:name "大豆炭疽病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-007 a kg:Document ; kg:name "大豆靶斑病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-DIS-008 a kg:Document ; kg:name "大豆疫霉根腐病教学知识卡"@zh ; kg:docType "disease_guide" .
+
+kg:DOC-PST-001 a kg:Document ; kg:name "教学药剂A（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-002 a kg:Document ; kg:name "教学药剂B（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-003 a kg:Document ; kg:name "教学药剂C（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-004 a kg:Document ; kg:name "教学药剂D（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-005 a kg:Document ; kg:name "教学药剂E（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-006 a kg:Document ; kg:name "教学药剂F（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-007 a kg:Document ; kg:name "教学药剂G（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-008 a kg:Document ; kg:name "教学药剂H（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-009 a kg:Document ; kg:name "教学药剂I（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-010 a kg:Document ; kg:name "教学药剂J（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-011 a kg:Document ; kg:name "教学药剂K（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-PST-012 a kg:Document ; kg:name "教学药剂L（模拟）教学标签"@zh ; kg:docType "pesticide_label" .
+
+kg:DOC-CASE-001 a kg:Document ; kg:name "大豆田间病例记录第001组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-002 a kg:Document ; kg:name "大豆田间病例记录第002组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-003 a kg:Document ; kg:name "大豆田间病例记录第003组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-004 a kg:Document ; kg:name "大豆田间病例记录第004组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-005 a kg:Document ; kg:name "大豆田间病例记录第005组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-006 a kg:Document ; kg:name "大豆田间病例记录第006组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-007 a kg:Document ; kg:name "大豆田间病例记录第007组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-008 a kg:Document ; kg:name "大豆田间病例记录第008组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-009 a kg:Document ; kg:name "大豆田间病例记录第009组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-010 a kg:Document ; kg:name "大豆田间病例记录第010组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-011 a kg:Document ; kg:name "大豆田间病例记录第011组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-012 a kg:Document ; kg:name "大豆田间病例记录第012组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-013 a kg:Document ; kg:name "大豆田间病例记录第013组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-014 a kg:Document ; kg:name "大豆田间病例记录第014组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-015 a kg:Document ; kg:name "大豆田间病例记录第015组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-016 a kg:Document ; kg:name "大豆田间病例记录第016组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-017 a kg:Document ; kg:name "大豆田间病例记录第017组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-018 a kg:Document ; kg:name "大豆田间病例记录第018组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-019 a kg:Document ; kg:name "大豆田间病例记录第019组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-020 a kg:Document ; kg:name "大豆田间病例记录第020组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-021 a kg:Document ; kg:name "大豆田间病例记录第021组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-022 a kg:Document ; kg:name "大豆田间病例记录第022组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-023 a kg:Document ; kg:name "大豆田间病例记录第023组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-024 a kg:Document ; kg:name "大豆田间病例记录第024组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-025 a kg:Document ; kg:name "大豆田间病例记录第025组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-026 a kg:Document ; kg:name "大豆田间病例记录第026组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-027 a kg:Document ; kg:name "大豆田间病例记录第027组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-028 a kg:Document ; kg:name "大豆田间病例记录第028组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-029 a kg:Document ; kg:name "大豆田间病例记录第029组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-030 a kg:Document ; kg:name "大豆田间病例记录第030组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-031 a kg:Document ; kg:name "大豆田间病例记录第031组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-032 a kg:Document ; kg:name "大豆田间病例记录第032组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-033 a kg:Document ; kg:name "大豆田间病例记录第033组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-034 a kg:Document ; kg:name "大豆田间病例记录第034组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-035 a kg:Document ; kg:name "大豆田间病例记录第035组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-036 a kg:Document ; kg:name "大豆田间病例记录第036组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-037 a kg:Document ; kg:name "大豆田间病例记录第037组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-038 a kg:Document ; kg:name "大豆田间病例记录第038组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-039 a kg:Document ; kg:name "大豆田间病例记录第039组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-040 a kg:Document ; kg:name "大豆田间病例记录第040组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-041 a kg:Document ; kg:name "大豆田间病例记录第041组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-042 a kg:Document ; kg:name "大豆田间病例记录第042组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-043 a kg:Document ; kg:name "大豆田间病例记录第043组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-044 a kg:Document ; kg:name "大豆田间病例记录第044组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-045 a kg:Document ; kg:name "大豆田间病例记录第045组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-046 a kg:Document ; kg:name "大豆田间病例记录第046组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-047 a kg:Document ; kg:name "大豆田间病例记录第047组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-048 a kg:Document ; kg:name "大豆田间病例记录第048组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-049 a kg:Document ; kg:name "大豆田间病例记录第049组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-050 a kg:Document ; kg:name "大豆田间病例记录第050组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-051 a kg:Document ; kg:name "大豆田间病例记录第051组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-052 a kg:Document ; kg:name "大豆田间病例记录第052组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-053 a kg:Document ; kg:name "大豆田间病例记录第053组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-054 a kg:Document ; kg:name "大豆田间病例记录第054组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-055 a kg:Document ; kg:name "大豆田间病例记录第055组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-056 a kg:Document ; kg:name "大豆田间病例记录第056组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-057 a kg:Document ; kg:name "大豆田间病例记录第057组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-058 a kg:Document ; kg:name "大豆田间病例记录第058组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-059 a kg:Document ; kg:name "大豆田间病例记录第059组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-CASE-060 a kg:Document ; kg:name "大豆田间病例记录第060组"@zh ; kg:docType "field_case_report" .
+
+kg:DOC-SUM-001 a kg:Document ; kg:name "2025年7月六合区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-002 a kg:Document ; kg:name "2025年7月浦口区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-003 a kg:Document ; kg:name "2025年7月高淳区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-004 a kg:Document ; kg:name "2025年8月江宁区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-005 a kg:Document ; kg:name "2025年9月溧水区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-006 a kg:Document ; kg:name "2025年6月六合区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-007 a kg:Document ; kg:name "2025年6月浦口区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-008 a kg:Document ; kg:name "2025年8月高淳区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-009 a kg:Document ; kg:name "2025年9月江宁区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DOC-SUM-010 a kg:Document ; kg:name "2025年5月溧水区大豆病害教学月报"@zh ; kg:docType "monthly_summary" .
+
+kg:DIS-01 a kg:Disease ;
+    kg:name "大豆褐斑病"@zh ;
+    kg:aliases "褐斑病|Septoria叶斑"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-001 ;
+    kg:hasTypicalSymptom kg:SYM-01 ;
+    kg:hasTypicalSymptom kg:SYM-02 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:hasTypicalSymptom kg:SYM-04 ;
+    kg:recommendedPesticide kg:PST-01 ;
+    kg:recommendedPesticide kg:PST-02 ;
+    kg:recommendedPesticide kg:PST-03 .
+
+kg:DIS-02 a kg:Disease ;
+    kg:name "大豆灰斑病"@zh ;
+    kg:aliases "蛙眼叶斑病|灰斑病"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-002 ;
+    kg:hasTypicalSymptom kg:SYM-05 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-04 ;
+    kg:recommendedPesticide kg:PST-02 ;
+    kg:recommendedPesticide kg:PST-05 .
+
+kg:DIS-03 a kg:Disease ;
+    kg:name "大豆细菌性斑点病"@zh ;
+    kg:aliases "细菌性叶斑|细菌性斑点"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-003 ;
+    kg:hasTypicalSymptom kg:SYM-06 ;
+    kg:hasTypicalSymptom kg:SYM-07 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-06 ;
+    kg:recommendedPesticide kg:PST-07 ;
+    kg:recommendedPesticide kg:PST-08 .
+
+kg:DIS-04 a kg:Disease ;
+    kg:name "大豆霜霉病"@zh ;
+    kg:aliases "霜霉病"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-004 ;
+    kg:hasTypicalSymptom kg:SYM-08 ;
+    kg:hasTypicalSymptom kg:SYM-09 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-02 ;
+    kg:recommendedPesticide kg:PST-09 ;
+    kg:recommendedPesticide kg:PST-03 .
+
+kg:DIS-05 a kg:Disease ;
+    kg:name "大豆锈病"@zh ;
+    kg:aliases "锈病"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-005 ;
+    kg:hasTypicalSymptom kg:SYM-10 ;
+    kg:hasTypicalSymptom kg:SYM-11 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-04 ;
+    kg:recommendedPesticide kg:PST-10 ;
+    kg:recommendedPesticide kg:PST-11 .
+
+kg:DIS-06 a kg:Disease ;
+    kg:name "大豆炭疽病"@zh ;
+    kg:aliases "炭疽病"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-006 ;
+    kg:hasTypicalSymptom kg:SYM-12 ;
+    kg:hasTypicalSymptom kg:SYM-13 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-06 ;
+    kg:recommendedPesticide kg:PST-12 ;
+    kg:recommendedPesticide kg:PST-03 .
+
+kg:DIS-07 a kg:Disease ;
+    kg:name "大豆靶斑病"@zh ;
+    kg:aliases "靶斑病|轮纹叶斑"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-007 ;
+    kg:hasTypicalSymptom kg:SYM-01 ;
+    kg:hasTypicalSymptom kg:SYM-14 ;
+    kg:hasTypicalSymptom kg:SYM-03 ;
+    kg:recommendedPesticide kg:PST-09 ;
+    kg:recommendedPesticide kg:PST-11 ;
+    kg:recommendedPesticide kg:PST-05 .
+
+kg:DIS-08 a kg:Disease ;
+    kg:name "大豆疫霉根腐病"@zh ;
+    kg:aliases "疫霉根腐病|根腐病"@zh ;
+    kg:affectsCrop kg:CROP-01 ;
+    kg:evidenceFrom kg:DOC-DIS-008 ;
+    kg:hasTypicalSymptom kg:SYM-15 ;
+    kg:hasTypicalSymptom kg:SYM-16 ;
+    kg:recommendedPesticide kg:PST-07 ;
+    kg:recommendedPesticide kg:PST-10 ;
+    kg:recommendedPesticide kg:PST-12 .
+
+kg:PST-01 a kg:Pesticide ; kg:name "教学药剂A（模拟）"@zh ; kg:activeIngredient "模拟活性成分A"@zh ; kg:safeIntervalDays 7 ; kg:evidenceFrom kg:DOC-PST-001 .
+
+kg:PST-02 a kg:Pesticide ; kg:name "教学药剂B（模拟）"@zh ; kg:activeIngredient "模拟活性成分B"@zh ; kg:safeIntervalDays 14 ; kg:evidenceFrom kg:DOC-PST-002 .
+
+kg:PST-03 a kg:Pesticide ; kg:name "教学药剂C（模拟）"@zh ; kg:activeIngredient "模拟活性成分C"@zh ; kg:safeIntervalDays 21 ; kg:evidenceFrom kg:DOC-PST-003 .
+
+kg:PST-04 a kg:Pesticide ; kg:name "教学药剂D（模拟）"@zh ; kg:activeIngredient "模拟活性成分D"@zh ; kg:safeIntervalDays 10 ; kg:evidenceFrom kg:DOC-PST-004 .
+
+kg:PST-05 a kg:Pesticide ; kg:name "教学药剂E（模拟）"@zh ; kg:activeIngredient "模拟活性成分E"@zh ; kg:safeIntervalDays 15 ; kg:evidenceFrom kg:DOC-PST-005 .
+
+kg:PST-06 a kg:Pesticide ; kg:name "教学药剂F（模拟）"@zh ; kg:activeIngredient "模拟活性成分F"@zh ; kg:safeIntervalDays 7 ; kg:evidenceFrom kg:DOC-PST-006 .
+
+kg:PST-07 a kg:Pesticide ; kg:name "教学药剂G（模拟）"@zh ; kg:activeIngredient "模拟活性成分G"@zh ; kg:safeIntervalDays 14 ; kg:evidenceFrom kg:DOC-PST-007 .
+
+kg:PST-08 a kg:Pesticide ; kg:name "教学药剂H（模拟）"@zh ; kg:activeIngredient "模拟活性成分H"@zh ; kg:safeIntervalDays 21 ; kg:evidenceFrom kg:DOC-PST-008 .
+
+kg:PST-09 a kg:Pesticide ; kg:name "教学药剂I（模拟）"@zh ; kg:activeIngredient "模拟活性成分I"@zh ; kg:safeIntervalDays 10 ; kg:evidenceFrom kg:DOC-PST-009 .
+
+kg:PST-10 a kg:Pesticide ; kg:name "教学药剂J（模拟）"@zh ; kg:activeIngredient "模拟活性成分J"@zh ; kg:safeIntervalDays 28 ; kg:evidenceFrom kg:DOC-PST-010 .
+
+kg:PST-11 a kg:Pesticide ; kg:name "教学药剂K（模拟）"@zh ; kg:activeIngredient "模拟活性成分K"@zh ; kg:safeIntervalDays 12 ; kg:evidenceFrom kg:DOC-PST-011 .
+
+kg:PST-12 a kg:Pesticide ; kg:name "教学药剂L（模拟）"@zh ; kg:activeIngredient "模拟活性成分L"@zh ; kg:safeIntervalDays 20 ; kg:evidenceFrom kg:DOC-PST-012 .
+
+kg:CASE-2025-0001 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0001" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-001 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0002 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0002" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-001 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0003 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0003" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-001 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0004 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0004" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 83 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-001 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0005 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0005" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.2 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-002 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0006 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0006" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-16"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-002 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0007 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0007" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-19"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-002 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 ;
+    kg:hasObservedSymptom kg:SYM-04 .
+
+kg:CASE-2025-0008 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0008" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 84 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-002 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0009 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0009" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-003 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0010 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0010" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-003 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0011 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0011" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-003 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0012 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0012" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 85 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-003 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0013 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0013" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-09"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 83 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-004 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0014 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0014" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-12"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-004 ;
+    kg:hasObservedSymptom kg:SYM-01 .
+
+kg:CASE-2025-0015 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0015" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-004 ;
+    kg:hasObservedSymptom kg:SYM-01 .
+
+kg:CASE-2025-0016 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0016" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-004 ;
+    kg:hasObservedSymptom kg:SYM-01 .
+
+kg:CASE-2025-0017 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0017" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-005 ;
+    kg:hasObservedSymptom kg:SYM-01 .
+
+kg:CASE-2025-0018 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0018" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.2 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-005 ;
+    kg:hasObservedSymptom kg:SYM-01 .
+
+kg:CASE-2025-0019 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0019" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-02"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-005 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0020 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0020" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-005 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0021 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0021" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-006 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0022 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0022" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-006 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0023 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0023" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-05"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 93 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-006 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0024 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0024" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-006 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0025 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0025" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-007 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0026 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0026" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-09"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-007 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0027 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0027" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 83 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-007 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0028 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0028" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-19"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-007 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0029 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0029" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 93 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-008 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0030 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0030" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 81 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-008 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0031 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0031" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 27.2 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-008 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0032 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0032" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-008 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0033 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0033" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-16"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-009 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0034 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0034" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-009 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0035 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0035" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-26"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 80 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-009 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0036 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0036" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 87 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-009 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0037 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0037" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-010 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0038 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0038" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-010 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0039 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0039" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-010 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0040 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0040" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-07-23"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 79 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-010 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0041 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0041" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-011 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0042 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0042" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 23.2 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-011 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0043 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0043" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 22.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-011 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0044 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0044" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 22.2 ;
+    kg:humidityPct 80 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-011 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0045 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0045" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 21.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-012 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0046 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0046" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-012 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0047 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0047" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 83 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-012 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0048 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0048" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 87 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-012 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0049 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0049" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 79 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-013 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0050 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0050" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-013 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0051 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0051" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-013 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0052 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0052" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-013 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0053 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0053" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-014 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0054 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0054" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 78 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-014 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0055 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0055" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 91 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-014 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0056 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0056" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-014 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0057 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0057" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 81 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-015 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0058 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0058" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-015 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0059 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0059" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 30.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-015 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0060 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0060" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 30.0 ;
+    kg:humidityPct 90 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-015 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0061 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0061" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 23.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-016 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0062 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0062" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 25.0 ;
+    kg:humidityPct 80 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-016 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0063 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0063" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 24.5 ;
+    kg:humidityPct 84 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-016 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0064 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0064" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 24.0 ;
+    kg:humidityPct 85 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-016 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0065 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0065" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 23.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-017 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0066 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0066" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.2 ;
+    kg:humidityPct 81 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-017 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0067 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0067" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-017 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0068 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0068" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 23.2 ;
+    kg:humidityPct 90 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-017 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0069 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0069" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 22.8 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-018 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0070 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0070" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 22.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-018 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0071 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0071" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-018 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0072 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0072" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 83 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-018 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0073 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0073" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-019 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0074 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0074" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-019 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0075 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0075" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 85 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-019 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0076 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0076" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 24.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-019 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0077 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0077" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-020 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0078 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0078" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-020 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0079 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0079" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-020 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0080 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0080" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-020 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0081 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0081" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 23.2 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-021 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0082 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0082" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-021 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0083 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0083" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-021 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0084 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0084" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-021 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0085 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0085" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 30.5 ;
+    kg:humidityPct 83 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-022 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0086 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0086" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-022 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0087 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0087" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-022 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0088 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0088" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 25.0 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-022 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0089 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0089" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 24.5 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-023 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0090 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0090" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 24.0 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-023 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0091 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0091" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-023 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0092 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0092" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 93 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-023 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0093 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0093" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-024 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0094 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0094" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 23.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-024 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0095 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0095" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 22.8 ;
+    kg:humidityPct 95 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-024 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0096 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0096" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 87 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-024 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0097 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0097" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-025 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0098 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0098" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-025 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0099 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0099" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-025 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0100 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0100" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 94 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-025 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0101 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0101" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 23.0 ;
+    kg:humidityPct 83 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-026 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0102 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0102" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-026 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0103 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0103" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-026 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0104 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0104" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 96 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-026 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0105 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0105" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 93 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-027 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0106 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0106" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-027 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0107 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0107" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-027 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0108 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0108" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-027 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0109 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0109" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 95 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-028 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0110 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0110" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 27.8 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-028 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0111 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0111" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 30.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-028 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0112 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0112" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-028 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0113 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0113" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 95 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-029 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0114 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0114" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 25.0 ;
+    kg:humidityPct 94 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-029 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0115 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0115" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 24.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-029 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0116 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0116" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 24.0 ;
+    kg:humidityPct 87 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-029 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0117 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0117" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 21.5 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-030 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0118 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0118" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-030 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0119 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0119" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-030 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0120 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0120" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 23.2 ;
+    kg:humidityPct 84 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-030 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0121 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0121" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 22.8 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-031 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0122 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0122" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 93 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-031 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0123 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0123" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-031 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0124 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0124" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-031 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0125 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0125" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 83 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-032 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0126 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0126" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-032 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0127 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0127" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 92 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-032 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0128 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0128" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-032 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0129 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0129" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-033 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0130 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0130" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-033 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0131 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0131" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 30.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-033 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0132 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0132" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 29.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-033 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0133 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0133" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-034 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0134 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0134" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-034 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0135 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0135" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 28.2 ;
+    kg:humidityPct 81 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-034 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0136 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0136" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-034 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0137 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0137" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-035 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0138 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0138" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-035 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0139 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0139" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-035 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0140 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0140" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 25.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-035 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0141 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0141" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 22.5 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-036 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0142 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0142" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 22.0 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-036 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0143 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0143" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 21.5 ;
+    kg:humidityPct 80 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-036 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0144 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0144" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 84 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-036 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0145 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0145" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-037 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0146 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0146" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 26.2 ;
+    kg:humidityPct 83 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-037 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0147 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0147" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-037 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0148 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0148" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 79 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-037 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0149 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0149" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-038 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0150 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0150" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-038 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0151 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0151" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 30.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-038 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0152 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0152" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-038 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0153 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0153" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 78 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-039 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0154 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0154" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-039 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0155 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0155" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 27.0 ;
+    kg:humidityPct 83 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-039 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0156 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0156" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 23.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-039 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0157 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0157" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 30.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-040 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0158 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0158" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 29.8 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-040 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0159 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0159" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-040 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0160 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0160" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 28.8 ;
+    kg:humidityPct 82 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-040 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0161 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0161" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 22.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-041 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0162 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0162" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-041 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0163 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0163" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 85 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-041 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0164 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0164" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-041 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0165 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0165" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 81 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-042 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0166 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0166" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-042 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0167 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0167" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 22.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-042 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0168 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0168" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 22.0 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-042 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0169 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0169" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 21.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-043 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0170 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0170" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-043 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0171 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0171" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.8 ;
+    kg:humidityPct 81 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-043 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0172 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0172" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-043 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0173 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0173" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-044 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0174 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0174" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-044 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0175 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0175" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-044 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0176 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0176" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-044 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0177 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0177" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-045 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0178 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0178" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-045 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0179 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0179" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 84 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-045 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0180 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0180" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 83 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-045 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0181 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0181" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 22.0 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-046 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0182 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0182" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-046 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0183 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0183" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 30.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-046 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0184 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0184" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 29.8 ;
+    kg:humidityPct 83 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-046 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0185 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0185" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-047 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0186 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0186" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-047 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0187 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0187" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-047 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 .
+
+kg:CASE-2025-0188 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0188" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 85 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-047 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0189 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0189" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-01 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-048 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-02 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0190 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0190" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-05 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-048 ;
+    kg:hasObservedSymptom kg:SYM-10 ;
+    kg:hasObservedSymptom kg:SYM-11 .
+
+kg:CASE-2025-0191 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0191" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-048 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0192 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0192" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 23.0 ;
+    kg:humidityPct 90 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-048 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0193 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0193" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 22.5 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-049 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0194 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0194" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 22.0 ;
+    kg:humidityPct 95 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-049 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0195 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0195" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 21.5 ;
+    kg:humidityPct 94 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-049 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0196 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0196" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 26.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-049 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0197 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0197" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 89 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-050 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0198 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0198" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 26.2 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-050 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0199 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0199" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 94 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-050 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0200 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0200" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 93 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-050 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0201 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0201" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 21.8 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-051 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0202 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0202" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-051 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0203 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0203" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 96 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-051 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0204 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0204" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 93 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-051 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0205 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0205" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-052 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0206 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0206" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-06 ;
+    kg:temperatureC 25.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-052 ;
+    kg:hasObservedSymptom kg:SYM-12 ;
+    kg:hasObservedSymptom kg:SYM-13 .
+
+kg:CASE-2025-0207 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0207" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 87 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-052 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0208 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0208" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 95 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-052 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0209 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0209" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 30.2 ;
+    kg:humidityPct 92 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-053 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0210 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0210" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 29.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-053 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0211 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0211" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.2 ;
+    kg:humidityPct 82 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-053 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0212 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0212" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 95 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-053 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0213 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0213" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 94 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-054 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0214 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0214" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-04 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-054 ;
+    kg:hasObservedSymptom kg:SYM-08 ;
+    kg:hasObservedSymptom kg:SYM-09 .
+
+kg:CASE-2025-0215 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0215" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-08 ;
+    kg:temperatureC 26.5 ;
+    kg:humidityPct 90 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-054 ;
+    kg:hasObservedSymptom kg:SYM-15 ;
+    kg:hasObservedSymptom kg:SYM-16 .
+
+kg:CASE-2025-0216 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0216" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.0 ;
+    kg:humidityPct 81 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-054 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0217 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0217" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-05-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 23.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-055 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0218 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0218" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-05-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 23.0 ;
+    kg:humidityPct 90 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-055 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0219 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0219" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-05-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 22.5 ;
+    kg:humidityPct 84 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-055 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0220 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0220" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-05-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 22.0 ;
+    kg:humidityPct 86 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-055 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0221 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0221" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-05-01"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 21.5 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-056 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0222 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0222" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-06-11"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 27.2 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-056 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0223 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0223" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-06-21"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 89 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-056 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0224 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0224" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-06-03"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.2 ;
+    kg:humidityPct 83 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-056 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0225 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0225" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-06-13"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-057 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0226 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0226" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-06-08"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-02 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 85 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-057 ;
+    kg:hasObservedSymptom kg:SYM-05 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0227 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0227" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-07-18"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 26.8 ;
+    kg:humidityPct 86 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-057 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0228 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0228" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-07-28"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 29.5 ;
+    kg:humidityPct 88 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-057 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0229 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0229" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-07-10"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 82 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-058 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0230 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0230" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-07-20"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 93 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-058 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0231 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0231" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-08-15"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 29.0 ;
+    kg:humidityPct 91 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-058 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0232 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0232" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-08-25"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 28.5 ;
+    kg:humidityPct 85 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-058 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0233 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0233" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-08-07"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 28.0 ;
+    kg:humidityPct 87 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-059 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0234 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0234" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-08-17"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 27.5 ;
+    kg:humidityPct 81 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-059 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0235 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0235" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-08-27"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 30.2 ;
+    kg:humidityPct 92 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-059 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0236 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0236" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-01 ;
+    kg:observedDate "2025-09-22"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 25.8 ;
+    kg:humidityPct 90 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-059 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0237 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0237" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-02 ;
+    kg:observedDate "2025-09-04"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 25.2 ;
+    kg:humidityPct 84 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-060 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 ;
+    kg:hasObservedSymptom kg:SYM-03 .
+
+kg:CASE-2025-0238 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0238" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-03 ;
+    kg:observedDate "2025-09-14"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 24.8 ;
+    kg:humidityPct 86 ;
+    kg:severity "medium" ;
+    kg:evidenceFrom kg:DOC-CASE-060 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .
+
+kg:CASE-2025-0239 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0239" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-04 ;
+    kg:observedDate "2025-09-24"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-07 ;
+    kg:temperatureC 24.2 ;
+    kg:humidityPct 89 ;
+    kg:severity "high" ;
+    kg:evidenceFrom kg:DOC-CASE-060 ;
+    kg:hasObservedSymptom kg:SYM-01 ;
+    kg:hasObservedSymptom kg:SYM-14 .
+
+kg:CASE-2025-0240 a kg:DiseaseCase ;
+    kg:name "CASE-2025-0240" ;
+    kg:ofCrop kg:CROP-01 ;
+    kg:observedIn kg:REG-05 ;
+    kg:observedDate "2025-09-06"^^xsd:date ;
+    kg:diagnosedAs kg:DIS-03 ;
+    kg:temperatureC 23.8 ;
+    kg:humidityPct 91 ;
+    kg:severity "low" ;
+    kg:evidenceFrom kg:DOC-CASE-060 ;
+    kg:hasObservedSymptom kg:SYM-06 ;
+    kg:hasObservedSymptom kg:SYM-07 .

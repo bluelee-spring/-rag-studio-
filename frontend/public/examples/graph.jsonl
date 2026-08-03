@@ -1,0 +1,8 @@
+{"record_type":"schema","node_types":[{"name":"Disease","label":"病害"},{"name":"Symptom","label":"症状"},{"name":"Chemical","label":"药剂"}],"edge_types":[{"name":"HAS_SYMPTOM","label":"具有症状","source_types":["Disease"],"target_types":["Symptom"]},{"name":"TREATED_BY","label":"推荐药剂","source_types":["Disease"],"target_types":["Chemical"]}]}
+{"record_type":"node","id":"disease_001","type":"Disease","name":"大豆褐斑病","text":"主要危害叶片，可形成褐色近圆形病斑。","properties":{"crop":"大豆"},"evidence_ids":["doc_001"]}
+{"record_type":"node","id":"symptom_001","type":"Symptom","name":"褐色近圆形病斑","text":"叶片形成褐色、近圆形病斑。","properties":{"organ":"叶片"},"evidence_ids":["doc_001"]}
+{"record_type":"node","id":"chemical_001","type":"Chemical","name":"苯醚甲环唑","text":"教学示例药剂，安全间隔期14天。","properties":{"safe_interval_days":14},"evidence_ids":["doc_002"]}
+{"record_type":"edge","id":"edge_001","source":"disease_001","target":"symptom_001","type":"HAS_SYMPTOM","text":"大豆褐斑病可表现为褐色近圆形病斑。","properties":{"confidence":0.96},"evidence_ids":["doc_001"]}
+{"record_type":"edge","id":"edge_002","source":"disease_001","target":"chemical_001","type":"TREATED_BY","text":"教学数据推荐使用苯醚甲环唑。","properties":{},"evidence_ids":["doc_002"]}
+{"record_type":"document","id":"doc_001","title":"大豆褐斑病症状说明","text":"大豆褐斑病主要危害叶片，病斑常呈褐色近圆形。","source":"教学模拟资料"}
+{"record_type":"document","id":"doc_002","title":"大豆褐斑病药剂说明","text":"教学数据中苯醚甲环唑的安全间隔期设为14天。","source":"教学模拟资料"}

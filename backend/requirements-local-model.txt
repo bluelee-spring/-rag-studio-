@@ -1,0 +1,7 @@
+# 仅在“模型连接 → 本地 Hugging Face / LoRA 模型”模式下安装。
+# torch 由 setup.ps1 / install-local-model.ps1 根据 CPU 或 CUDA 单独安装。
+transformers>=4.48,<5
+peft>=0.14,<1
+accelerate>=1.2,<2
+datasets>=3.2,<5
+safetensors>=0.5,<1

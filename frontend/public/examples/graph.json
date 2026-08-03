@@ -1,0 +1,35 @@
+{
+  "graph_version": "1.0",
+  "name": "大豆病害示例图",
+  "description": "演示病害、症状、药剂与地点之间的属性图关系",
+  "schema": {
+    "node_types": [
+      {"name": "Disease", "label": "病害"},
+      {"name": "Symptom", "label": "症状"},
+      {"name": "Chemical", "label": "药剂"},
+      {"name": "Location", "label": "地点"}
+    ],
+    "edge_types": [
+      {"name": "HAS_SYMPTOM", "label": "具有症状", "source_types": ["Disease"], "target_types": ["Symptom"]},
+      {"name": "TREATED_BY", "label": "推荐药剂", "source_types": ["Disease"], "target_types": ["Chemical"]},
+      {"name": "OCCURS_IN", "label": "发生地点", "source_types": ["Disease"], "target_types": ["Location"]}
+    ]
+  },
+  "nodes": [
+    {"id": "disease_001", "type": "Disease", "name": "大豆褐斑病", "text": "主要危害叶片，可形成褐色近圆形病斑。", "properties": {"crop": "大豆"}, "evidence_ids": ["doc_001"]},
+    {"id": "symptom_001", "type": "Symptom", "name": "褐色近圆形病斑", "text": "叶片形成褐色、近圆形病斑。", "properties": {"organ": "叶片"}, "evidence_ids": ["doc_001"]},
+    {"id": "symptom_002", "type": "Symptom", "name": "病斑边缘深褐色", "text": "病斑边缘颜色通常较深。", "properties": {"organ": "叶片"}, "evidence_ids": ["doc_001"]},
+    {"id": "chemical_001", "type": "Chemical", "name": "苯醚甲环唑", "text": "教学示例药剂，安全间隔期14天。", "properties": {"safe_interval_days": 14}, "evidence_ids": ["doc_002"]},
+    {"id": "location_001", "type": "Location", "name": "六合区", "text": "江苏省南京市六合区。", "properties": {"province": "江苏省"}}
+  ],
+  "edges": [
+    {"id": "edge_001", "source": "disease_001", "target": "symptom_001", "type": "HAS_SYMPTOM", "text": "大豆褐斑病可表现为褐色近圆形病斑。", "properties": {"confidence": 0.96}, "evidence_ids": ["doc_001"]},
+    {"id": "edge_002", "source": "disease_001", "target": "symptom_002", "type": "HAS_SYMPTOM", "text": "病斑边缘可呈深褐色。", "properties": {"confidence": 0.88}, "evidence_ids": ["doc_001"]},
+    {"id": "edge_003", "source": "disease_001", "target": "chemical_001", "type": "TREATED_BY", "text": "教学数据推荐使用苯醚甲环唑。", "properties": {}, "evidence_ids": ["doc_002"]},
+    {"id": "edge_004", "source": "disease_001", "target": "location_001", "type": "OCCURS_IN", "text": "教学病例记录于六合区。", "properties": {"year": 2025, "month": 7}}
+  ],
+  "documents": [
+    {"id": "doc_001", "title": "大豆褐斑病症状说明", "text": "大豆褐斑病主要危害叶片，病斑常呈褐色近圆形，边缘颜色较深。", "source": "教学模拟资料"},
+    {"id": "doc_002", "title": "大豆褐斑病药剂说明", "text": "教学数据中苯醚甲环唑的安全间隔期设为14天。", "source": "教学模拟资料"}
+  ]
+}

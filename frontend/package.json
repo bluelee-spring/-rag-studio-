@@ -1,0 +1,25 @@
+{
+  "name": "rag-teaching-studio-frontend",
+  "version": "0.7.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "next": "16.2.12",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "@types/react": "19.1.14",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.2"
+  }
+}

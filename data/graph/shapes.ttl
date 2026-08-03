@@ -1,0 +1,26 @@
+@prefix kg: <https://example.org/soybean-rag/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kg:DiseaseCaseShape a sh:NodeShape ;
+    sh:targetClass kg:DiseaseCase ;
+    sh:property [ sh:path kg:ofCrop ; sh:minCount 1 ; sh:maxCount 1 ; sh:class kg:Crop ] ;
+    sh:property [ sh:path kg:observedIn ; sh:minCount 1 ; sh:maxCount 1 ; sh:class kg:Region ] ;
+    sh:property [ sh:path kg:observedDate ; sh:minCount 1 ; sh:maxCount 1 ; sh:datatype xsd:date ] ;
+    sh:property [ sh:path kg:hasObservedSymptom ; sh:minCount 1 ; sh:class kg:Symptom ] ;
+    sh:property [ sh:path kg:diagnosedAs ; sh:maxCount 1 ; sh:class kg:Disease ] ;
+    sh:property [ sh:path kg:evidenceFrom ; sh:minCount 1 ; sh:maxCount 1 ; sh:class kg:Document ] .
+
+kg:DiseaseShape a sh:NodeShape ;
+    sh:targetClass kg:Disease ;
+    sh:property [ sh:path kg:hasTypicalSymptom ; sh:minCount 1 ; sh:class kg:Symptom ] .
+
+kg:PesticideShape a sh:NodeShape ;
+    sh:targetClass kg:Pesticide ;
+    sh:property [
+        sh:path kg:safeIntervalDays ;
+        sh:minCount 1 ;
+        sh:maxCount 1 ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0
+    ] .

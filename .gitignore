@@ -1,0 +1,20 @@
+# Python
+backend/.venv/
+backend/.env
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+runtime/workspaces/
+runtime/ingestion/
+Thumbs.db
+.idea/
+.vscode/

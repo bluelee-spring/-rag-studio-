@@ -1,0 +1,51 @@
+@prefix kg: <https://example.org/soybean-rag/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+kg:SoybeanRAGOntology a owl:Ontology ;
+    rdfs:label "大豆病害RAG教学本体"@zh ;
+    rdfs:comment "用于比较文本RAG、GraphRAG、SPARQL RAG和关系型数据库RAG的最小教学本体。"@zh .
+
+kg:Crop a owl:Class ; rdfs:label "作物"@zh .
+kg:Disease a owl:Class ; rdfs:label "病害"@zh .
+kg:Symptom a owl:Class ; rdfs:label "症状"@zh .
+kg:Pesticide a owl:Class ; rdfs:label "教学药剂"@zh .
+kg:Region a owl:Class ; rdfs:label "地区"@zh .
+kg:DiseaseCase a owl:Class ; rdfs:label "田间病例"@zh .
+kg:Document a owl:Class ; rdfs:label "证据文档"@zh .
+
+kg:ofCrop a owl:ObjectProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range kg:Crop ; rdfs:label "病例所属作物"@zh .
+kg:affectsCrop a owl:ObjectProperty ;
+    rdfs:domain kg:Disease ; rdfs:range kg:Crop ; rdfs:label "侵染作物"@zh .
+kg:observedIn a owl:ObjectProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range kg:Region ; rdfs:label "观察地区"@zh .
+kg:hasObservedSymptom a owl:ObjectProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range kg:Symptom ; rdfs:label "观察症状"@zh .
+kg:diagnosedAs a owl:ObjectProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range kg:Disease ; rdfs:label "诊断为"@zh .
+kg:hasTypicalSymptom a owl:ObjectProperty ;
+    rdfs:domain kg:Disease ; rdfs:range kg:Symptom ; rdfs:label "典型症状"@zh .
+kg:recommendedPesticide a owl:ObjectProperty ;
+    rdfs:domain kg:Disease ; rdfs:range kg:Pesticide ; rdfs:label "推荐教学药剂"@zh .
+kg:evidenceFrom a owl:ObjectProperty ;
+    rdfs:range kg:Document ; rdfs:label "证据来源"@zh .
+
+kg:name a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "名称"@zh .
+kg:aliases a owl:DatatypeProperty ; rdfs:range xsd:string ; rdfs:label "别名"@zh .
+kg:observedDate a owl:DatatypeProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range xsd:date ; rdfs:label "观察日期"@zh .
+kg:temperatureC a owl:DatatypeProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range xsd:decimal ; rdfs:label "温度摄氏度"@zh .
+kg:humidityPct a owl:DatatypeProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range xsd:integer ; rdfs:label "相对湿度百分比"@zh .
+kg:severity a owl:DatatypeProperty ;
+    rdfs:domain kg:DiseaseCase ; rdfs:range xsd:string ; rdfs:label "严重程度"@zh .
+kg:safeIntervalDays a owl:DatatypeProperty ;
+    rdfs:domain kg:Pesticide ; rdfs:range xsd:integer ; rdfs:label "安全间隔期天数"@zh .
+kg:activeIngredient a owl:DatatypeProperty ;
+    rdfs:domain kg:Pesticide ; rdfs:range xsd:string ; rdfs:label "模拟活性成分"@zh .
+kg:docType a owl:DatatypeProperty ;
+    rdfs:domain kg:Document ; rdfs:range xsd:string ; rdfs:label "文档类型"@zh .

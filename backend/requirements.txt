@@ -1,0 +1,15 @@
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+pydantic==2.11.7
+httpx==0.28.1
+neo4j==5.28.2
+rdflib==7.1.4
+faiss-cpu==1.14.3
+numpy==2.3.5
+python-dotenv==1.1.1
+pytest==8.4.1
+python-multipart==0.0.20
+jieba==0.42.1
+pypdf==5.9.0
+python-docx==1.2.0
+openpyxl==3.1.5

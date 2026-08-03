@@ -1,0 +1,53 @@
+{
+  "primary_compound_question_id": "Q-006",
+  "count_definition": {
+    "all_matching_case_count": "满足地区=六合区、日期=2025年7月、观察症状=SYM-01的去重病例数。",
+    "main_disease_case_count": "上述匹配病例中，诊断为出现频率最高病害DIS-01的病例数。"
+  },
+  "gold": {
+    "matched_case_count": 24,
+    "disease_counts": {
+      "DIS-01": 18,
+      "DIS-03": 2,
+      "DIS-07": 4
+    },
+    "main_disease_id": "DIS-01",
+    "main_disease_case_count": 18,
+    "companion_symptom_counts": {
+      "SYM-02": 13,
+      "SYM-03": 11,
+      "SYM-04": 7
+    },
+    "recommended_pesticide_id": "PST-01",
+    "recommended_safe_interval_days": 7,
+    "recommended_evidence_doc_id": "DOC-PST-001",
+    "matched_case_ids": [
+      "CASE-2025-0001",
+      "CASE-2025-0002",
+      "CASE-2025-0003",
+      "CASE-2025-0004",
+      "CASE-2025-0005",
+      "CASE-2025-0006",
+      "CASE-2025-0007",
+      "CASE-2025-0008",
+      "CASE-2025-0009",
+      "CASE-2025-0010",
+      "CASE-2025-0011",
+      "CASE-2025-0012",
+      "CASE-2025-0013",
+      "CASE-2025-0014",
+      "CASE-2025-0015",
+      "CASE-2025-0016",
+      "CASE-2025-0017",
+      "CASE-2025-0018",
+      "CASE-2025-0019",
+      "CASE-2025-0020",
+      "CASE-2025-0021",
+      "CASE-2025-0022",
+      "CASE-2025-0023",
+      "CASE-2025-0024"
+    ]
+  },
+  "expected_natural_language_answer": "按教学数据统计，共有24条病例满足“2025年7月、六合区、观察到褐色近圆形病斑”的条件。其中18条诊断为大豆褐斑病，因此它是频率最高的候选病害。在这18条病例中，常见伴随症状依次包括病斑边缘深褐13例、叶片黄化11例、提前落叶7例。按推荐优先级可选择教学药剂A（模拟），模拟安全间隔期为7天，依据文档为DOC-DIS-001和DOC-PST-001。",
+  "disclaimer": "全部数据为教学模拟，不能用于真实病害诊断、用药或安全间隔期判断。"
+}
