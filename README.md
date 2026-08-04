@@ -1,6 +1,7 @@
 # RAG Studio — 检索增强生成方法实验台
 
 > RAG Teaching Studio v0.7.0 · 多范式检索可视化 · 批量分类工作台
+> 本项目依托于 第四届语料库与数字人文暑期学院教学项目
 
 **RAG Studio** 是一个面向教学与实验的检索增强生成（Retrieval-Augmented Generation）可视化平台。它在单一界面内集成了 **七种检索范式**——从经典的 TF–IDF、BM25 到语义向量、属性图、RDF/SPARQL、关系数据库 SQL，以及多检索器综合路由——让每种方法的内部机制变得可见、可审计、可对比。
 
